@@ -1,0 +1,24 @@
+{
+  "name": "mollsoft/goip-client",
+  "description": "GoIP Client library PHP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MollSoft\\GoipClient\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MollSoft",
+      "email": "info@mollsoft.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.7",
+    "spatie/crawler": "^8.0",
+    "symfony/dom-crawler": "^6.3"
+  }
+}
